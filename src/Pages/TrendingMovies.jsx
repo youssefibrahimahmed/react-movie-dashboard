@@ -3,7 +3,7 @@ import axios from 'axios'
 import React, { useState } from 'react'
 import { useQueryHook } from '../components/useQueryHook'
 import Card from '../components/card';
-import MovieDetailsModal from '../components/movieDetailsModal';
+import MovieDetailsModal from '../components/MovieDetailsModal';
 import './css.css'
 
 
