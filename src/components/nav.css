@@ -1,0 +1,12 @@
+.active{
+    border-bottom:4px solid white ;
+    transition: 3s;
+}
+
+a:hover{
+    border-bottom-color:white;
+}
+a{
+    border-bottom: 4px solid transparent;
+    transition: all .3s ease;
+}

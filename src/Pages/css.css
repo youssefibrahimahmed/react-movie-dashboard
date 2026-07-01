@@ -1,0 +1,38 @@
+.section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.st {
+    color: rgb(132, 129, 129);
+    position: relative;
+}
+
+.st::before {
+    content: '';
+    height: 100%;
+    width: 15px;
+    background: rgb(255, 255, 255);
+
+    position: absolute;
+    left: 0;
+    transform: skewx(-20deg);
+    top: 0;
+    opacity: 30%;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: move 1s ease-in-out infinite forwards;
+}
+
+@keyframes move {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100%;
+    }
+
+}
