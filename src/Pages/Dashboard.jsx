@@ -4,7 +4,7 @@
     import { useDispatch, useSelector } from 'react-redux'
     import { getAllMovies } from '../Api/moviesApi'
 import { getMovieDetails } from '../Api/moviesApi'
-import MovieDetailsModal from '../components/movieDetailsModal'
+import MovieDetailsModal from '../components/MovieDetailsModal'
     function Dashboard() {
 
         const dispatch = useDispatch()
