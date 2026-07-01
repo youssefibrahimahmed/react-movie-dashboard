@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getAllMovies } from '../Api/moviesApi'
 import Card from '../components/card'
-import MovieDetailsModal from '../components/movieDetailsModal'
+import MovieDetailsModal from '../components/MovieDetailsModal'
 import './css.css'
 function FilmsRedux() {
 
