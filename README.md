@@ -1,23 +1,34 @@
 # 🎬 React Movie Dashboard
 
-A modern movie dashboard built with React that allows users to browse movies, view detailed information, explore trending movies, and manage authentication.
+A modern and responsive movie dashboard built with **React** that allows users to browse movies, explore trending shows, search for titles, view detailed information, and manage authentication.
+
+---
+
+## 🌐 Live Demo
+
+👉 https://react-movie-dashboard-4dbc.vercel.app/
+
+---
 
 ## 🚀 Features
 
 - 🔐 Login Authentication
-- 📊 Dashboard with movie statistics
-- 🎬 Film Listing Page
+- 🛡️ Protected Routes
+- 📊 Dashboard with Movie Statistics
+- 🎬 Browse Movies
 - 🔥 Trending Movies
 - 🔍 Search Movies
 - 📄 Movie Details Modal
-- ⚡ Global State Management using Redux Toolkit
-- 📡 Data Fetching with TanStack Query & Axios
+- ⚡ Global State Management with Redux Toolkit
+- 📡 Data Fetching using TanStack Query & Axios
 - 🛣️ React Router Navigation
 - ⏳ Loading States
 - ❌ Error Handling
-- ♻️ Reusable Components
-- 🛡️ Protected Routes
 - ✅ Form Validation
+- ♻️ Reusable Components
+- 📱 Fully Responsive Design
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -29,24 +40,28 @@ A modern movie dashboard built with React that allows users to browse movies, vi
 - Tailwind CSS
 - TVMaze API
 
+---
+
 ## 📂 Project Structure
 
-```
+```text
 src/
 ├── Api/
 ├── components/
 ├── filmRedux/
-├── Pages/
 ├── usersRedux/
+├── Pages/
 ├── App.jsx
 ├── StoreApi.jsx
 └── main.jsx
 ```
 
+---
+
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/react-movie-dashboard.git
+git clone https://github.com/youssefibrahimahmed/react-movie-dashboard.git
 
 cd react-movie-dashboard
 
@@ -55,20 +70,35 @@ npm install
 npm run dev
 ```
 
+---
+
 ## 🌐 API
 
-This project uses the public TVMaze API:
+This project uses the public **TVMaze API**.
 
+```
 https://api.tvmaze.com/shows
+```
 
-## 📸 Screens
+---
 
-- Login Page
-- Dashboard
-- Films Page
-- Trending Movies
-- Movie Details Modal
+## 📸 Pages
+
+- 🔐 Login
+- 📊 Dashboard
+- 🎬 Films
+- 🔥 Trending Movies
+- 📄 Movie Details Modal
+
+---
 
 ## 👨‍💻 Author
 
-Youssef Ibrahim
+**Youssef Ibrahim Ahmed**
+
+- GitHub: https://github.com/youssefibrahimahmed
+- LinkedIn: *(Add your LinkedIn profile here if you'd like)*
+
+---
+
+⭐ If you like this project, don't forget to give it a star!
