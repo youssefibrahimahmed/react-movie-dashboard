@@ -2,13 +2,15 @@ import React, { useRef, useEffect, useReducer, useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { login } from '../usersRedux/authinticationSlice';
 import './css.css'
+import { useLocation } from "react-router-dom";
+
 function Login() {
 
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
     const [username, setUser] = useState("");
     const dispatch = useDispatch();
-
+const location =useLocation();
     const handleFocus = useRef(null)
 
 
@@ -52,11 +54,12 @@ function Login() {
                     </div>
                 </form>
             </div>
-            {error && (
+            {error|| location.state?.message&& (
                 <p className="st bg-red-600/40 w-fit text-red-500 mx-auto relative my-5 p-2 rounded-xl text-white font-bold text-sm mb-3">
-                    {error}
+                    {error||location.state.message}
                 </p>
             )}
+
         </>
     )
 }
