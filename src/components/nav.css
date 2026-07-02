@@ -1,6 +1,6 @@
 .active{
     border-bottom:4px solid white ;
-    transition: 3s;
+    transition: .3s;
 }
 
 a:hover{
