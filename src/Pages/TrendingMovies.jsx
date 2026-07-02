@@ -54,7 +54,7 @@ function TrendingMovies() {
     return (
         <>
             <MovieDetailsModal />
-            <div className="text-2xl font-bold text-center mt-20 bg-blue-600 w-fit mx-auto py-2 px-4 rounded text-white my-0">Trending Movies</div>
+            <div className="text-2xl font-bold text-center mt-35 bg-blue-600 w-fit mx-auto py-2 px-4 rounded text-white my-0">Trending Movies</div>
 
             <input
                 type="text"
@@ -65,7 +65,7 @@ function TrendingMovies() {
 
             {/* ------------------------------------------------------------------------------------------------------------------------- */}
 
-            <div className='flex  justify-around m-10   '>
+            <div className='flex flex-wrap gap-10 md:flex-row justify-around m-10   '>
 
                 <div className="bg-gray-950 totalMovies h-fit py-5 shadow-[0_0_15px_rgba(59,130,246,0.4)] px-5 py-0 border-1 border-gray-400 rounded-lg text-white  relative items-center justify-center mx-auto    text-center ">
                     <p className='font-semibold mt-2 text-2xl px-5  py-2 text-white bg-blue-500 hover:bg-blue-700 transition duration-300 rounded-xl  '>{data.length}</p>
