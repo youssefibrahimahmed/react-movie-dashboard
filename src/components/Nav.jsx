@@ -43,7 +43,7 @@ function Nav() {
 
 
                {/* Mobile Navigation */}
-            <button onClick={() => setIsOpen(!isOpen)} className="md:hidden ml-auto text-white focus:outline-none">
+            <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-2xl ml-auto text-white focus:outline-none">
                 ☰
             </button>
 

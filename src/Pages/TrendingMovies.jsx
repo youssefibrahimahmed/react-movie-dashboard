@@ -63,7 +63,28 @@ function TrendingMovies() {
                 className="w-full max-w-md mx-auto block m-8 px-4 py-3 border border-gray-300 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-300 text-gray-700"
             />
 
+           
             {/* ------------------------------------------------------------------------------------------------------------------------- */}
+            <div className="card flex flex-wrap justify-center gap-4 mt-10 mb-20">
+
+
+                {filterMovies.length === 0 ? (
+                    <h1 className='text-center st text-2xl font-bold mt-10'>
+                        No Movies Found
+                    </h1>
+                ) :
+
+                    filterMovies?.map((movie) => (
+                        <Card
+                            key={movie.id}
+                            id={movie.id}
+                            imgSrc={movie.image?.medium}
+                            name={movie.name}
+                            rating={movie.rating?.average} />
+                    ))
+                }
+            </div>
+ {/* ------------------------------------------------------------------------------------------------------------------------- */}
 
             <div className='flex flex-wrap gap-10 md:flex-row justify-around m-10   '>
 
@@ -87,27 +108,6 @@ function TrendingMovies() {
 
 
             </div>
-            {/* ------------------------------------------------------------------------------------------------------------------------- */}
-            <div className="card flex flex-wrap justify-center gap-4 mt-10 mb-20">
-
-
-                {filterMovies.length === 0 ? (
-                    <h1 className='text-center st text-2xl font-bold mt-10'>
-                        No Movies Found
-                    </h1>
-                ) :
-
-                    filterMovies?.map((movie) => (
-                        <Card
-                            key={movie.id}
-                            id={movie.id}
-                            imgSrc={movie.image?.medium}
-                            name={movie.name}
-                            rating={movie.rating?.average} />
-                    ))
-                }
-            </div>
-
         </>
     )
 }
