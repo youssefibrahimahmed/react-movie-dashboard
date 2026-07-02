@@ -39,7 +39,8 @@ const location =useLocation();
 
     return (
         <>
-            <div className="login box w-96 p-6 bg-white  rounded-lg shadow-md mt-20 mx-auto">
+            <div className="login box w-fit md:w-96 p-6 bg-white  rounded-lg shadow-md mt-20 mx-auto">
+           
                 <form onSubmit={handleSubmit}>
                     <div className="mb-4">
                         <label className="block text-gray-700 font-bold mb-2">Username </label>
