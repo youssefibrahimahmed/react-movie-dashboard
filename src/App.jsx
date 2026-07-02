@@ -35,7 +35,7 @@ function App() {
                 <Route path="/films" element={<ProtectedRoutes><FilmsRedux /></ProtectedRoutes>} />
                 <Route path="/dashboard" element={<ProtectedRoutes><Dashboard /></ProtectedRoutes>} />
                 <Route path="/trending-movies" element={<ProtectedRoutes><TrendingMovies /></ProtectedRoutes>} />
-                <Route path="*" element={<Error />} />
+                <Route path="*" element={<div className="text-2xl font-bold text-center mt-20">Error 404: Page Not Found</div>} />
               </Routes>
 
             </main>
