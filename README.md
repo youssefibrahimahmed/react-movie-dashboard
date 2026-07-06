@@ -97,8 +97,7 @@ https://api.tvmaze.com/shows
 **Youssef Ibrahim Ahmed**
 
 - GitHub: https://github.com/youssefibrahimahmed
-- LinkedIn: *(Add your LinkedIn profile here if you'd like)*
-
+- 
 ---
 
 ⭐ If you like this project, don't forget to give it a star!
